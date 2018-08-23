@@ -1,0 +1,55 @@
+﻿Build started 2016/3/6 上午 12:57:41.
+     1>Project "C:\Users\admin\Desktop\0410023_李松融\asm.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         E:\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I.\Irvine /I.\inc /Zi /nologo /W3 /WX- /O2 /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt 00_StudentWork\00_SimpleInteractiveSystem\mySystem_MonteCarlo.cpp
+         mySystem_MonteCarlo.cpp
+     1>C:\Users\admin\Desktop\0410023_李松融\inc\GL/gl.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystem_MonteCarlo.cpp(21): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystem_MonteCarlo.cpp(58): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystem_MonteCarlo.cpp(59): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1186,5): warning MSB8012: TargetPath(C:\Users\admin\Desktop\0410023_李松融\Release\myFirstSystem.exe) does not match the Linker's OutputFile property value (C:\Users\admin\Desktop\0410023_李松融\bin\Release\myFirstSystem.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         E:\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\bin\Release\myFirstSystem.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:.\Irvine /LIBPATH:.\lib /LIBPATH:.\lib\IL freeglut.lib opengl32.lib glew32.lib glew32s.lib ILUT.lib devIL.lib ILU.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\admin\Desktop\0410023_李松融\Release\myFirstSystem.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"C:\Users\admin\Desktop\0410023_李松融\Release\myFirstSystem.lib" /MACHINE:X86 /SAFESEH Release\mySystem_CubicFunction.obj
+         Release\basic_app.obj
+         Release\main.obj
+         Release\mySystem_MonteCarlo.obj
+         Release\mySystem_QuadraticFunction.obj
+         Release\mySystem_StudentRecordManager.obj
+         Release\mySystemApp.obj
+         Release\mySystemApp_draw.obj
+         Release\mySystemApp_HandleEvents.obj
+         Release\camera.obj
+         Release\opengl_stuff.obj
+         Release\painter_draw.obj
+         Release\openGLapp.obj
+         Release\openGLapp.events.obj
+         Release\openGLapp_draw.obj
+         Release\openGLapp_init.obj
+         Release\openGLapp_update.obj
+         Release\basic_tools.obj
+         Release\grid2D.obj
+         Release\provider.obj
+         Release\vector3d.obj
+         Release\fileReader.obj
+         Release\imageReader.obj
+         Release\BG_grid2D.obj
+         Release\boardGame.obj
+         Release\painter.obj
+         Release\boardGameApp.obj
+         Release\freeCanvas2D.obj
+         Release\lattice_manager.obj
+         Release\paintingSystem.obj
+         Release\paintingSystemApp.obj
+         Release\paintingSystemApp_draw.obj
+         Release\paintingSystemApp_HandleEvents.obj
+         Release\texture.obj
+         Release\textureManager.obj
+         Release\textureManager_read.obj
+         Generating code
+         Finished generating code
+         asm.vcxproj -> C:\Users\admin\Desktop\0410023_李松融\Release\myFirstSystem.exe
+     1>Done Building Project "C:\Users\admin\Desktop\0410023_李松融\asm.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.92
