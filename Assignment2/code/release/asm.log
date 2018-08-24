@@ -1,55 +1,160 @@
-﻿Build started 2016/4/23 下午 11:56:25.
-     1>Project "C:\Users\admin\Desktop\0410023_李松融\asm.vcxproj" on node 2 (Build target(s)).
-     1>ClCompile:
-         E:\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I.\Irvine /I.\inc /Zi /nologo /W3 /WX- /O2 /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt 00_StudentWork\00_SimpleInteractiveSystem\mySystem_MonteCarlo.cpp
-         mySystem_MonteCarlo.cpp
-     1>C:\Users\admin\Desktop\0410023_李松融\inc\GL/gl.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
-     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1186,5): warning MSB8012: TargetPath(C:\Users\admin\Desktop\0410023_李松融\Release\SelfMotivatedSystem.exe) does not match the Linker's OutputFile property value (C:\Users\admin\Desktop\0410023_李松融\bin\Release\SelfMotivatedSystem.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
-       Link:
-         E:\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\bin\Release\SelfMotivatedSystem.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:.\Irvine /LIBPATH:.\lib /LIBPATH:.\lib\IL freeglut.lib opengl32.lib glew32.lib glew32s.lib ILUT.lib devIL.lib ILU.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\admin\Desktop\0410023_李松融\Release\SelfMotivatedSystem.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"C:\Users\admin\Desktop\0410023_李松融\Release\SelfMotivatedSystem.lib" /MACHINE:X86 /SAFESEH Release\myBasicTools.obj
-         Release\mySystem_ColorPalette.obj
-         Release\mySystem_GalaxySystem.obj
-         Release\mySystem_MonteCarlo.obj
-         Release\mySystem_SimpleFileEditor.obj
-         Release\mySystem_SimplePainter.obj
-         Release\mySystem_SortingVisualization.obj
-         Release\basic_app.obj
-         Release\main.obj
-         Release\mySystemApp.obj
-         Release\mySystemApp_draw.obj
-         Release\mySystemApp_HandleEvents.obj
-         Release\camera.obj
-         Release\opengl_stuff.obj
-         Release\painter_draw.obj
-         Release\openGLapp.obj
-         Release\openGLapp.events.obj
-         Release\openGLapp_draw.obj
-         Release\openGLapp_init.obj
-         Release\openGLapp_update.obj
-         Release\basic_tools.obj
-         Release\grid2D.obj
-         Release\provider.obj
-         Release\vector3d.obj
-         Release\fileReader.obj
-         Release\imageReader.obj
-         Release\BG_grid2D.obj
-         Release\boardGame.obj
-         Release\painter.obj
-         Release\boardGameApp.obj
-         Release\freeCanvas2D.obj
-         Release\lattice_manager.obj
-         Release\paintingSystem.obj
-         Release\paintingSystemApp.obj
-         Release\paintingSystemApp_draw.obj
-         Release\paintingSystemApp_HandleEvents.obj
-         Release\texture.obj
-         Release\textureManager.obj
-         Release\textureManager_read.obj
-         Generating code
-         Finished generating code
-         asm.vcxproj -> C:\Users\admin\Desktop\0410023_李松融\Release\SelfMotivatedSystem.exe
-     1>Done Building Project "C:\Users\admin\Desktop\0410023_李松融\asm.vcxproj" (Build target(s)).
-
-Build succeeded.
-
-Time Elapsed 00:00:02.34
+﻿  myBasicTools.cpp
+  mySystem_ColorPalette.cpp
+C:\Users\Hubert\Desktop\nctu-oop-assignment\Assignment2\code\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Users\Hubert\Desktop\nctu-oop-assignment\Assignment2\code\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+00_StudentWork\00_SimpleInteractiveSystem\mySystem_ColorPalette.cpp(70): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+00_StudentWork\00_SimpleInteractiveSystem\mySystem_ColorPalette.cpp(71): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+00_StudentWork\00_SimpleInteractiveSystem\mySystem_ColorPalette.cpp(72): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+  mySystem_GalaxySystem.cpp
+C:\Users\Hubert\Desktop\nctu-oop-assignment\Assignment2\code\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Users\Hubert\Desktop\nctu-oop-assignment\Assignment2\code\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+00_StudentWork\00_SimpleInteractiveSystem\mySystem_GalaxySystem.cpp(44): warning C4244: '引數': 將 'time_t' 轉換為 'unsigned int'，由於類型不同，可能導致資料遺失
+  mySystem_MonteCarlo.cpp
+C:\Users\Hubert\Desktop\nctu-oop-assignment\Assignment2\code\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Users\Hubert\Desktop\nctu-oop-assignment\Assignment2\code\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+  mySystem_SimpleFileEditor.cpp
+C:\Users\Hubert\Desktop\nctu-oop-assignment\Assignment2\code\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Users\Hubert\Desktop\nctu-oop-assignment\Assignment2\code\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+00_StudentWork\00_SimpleInteractiveSystem\mySystem_SimpleFileEditor.cpp(69): warning C4018: '<': signed/unsigned 不相符
+  mySystem_SimplePainter.cpp
+C:\Users\Hubert\Desktop\nctu-oop-assignment\Assignment2\code\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Users\Hubert\Desktop\nctu-oop-assignment\Assignment2\code\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+00_StudentWork\00_SimpleInteractiveSystem\mySystem_SimplePainter.cpp(41): warning C4244: '引數': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+00_StudentWork\00_SimpleInteractiveSystem\mySystem_SimplePainter.cpp(195): warning C4244: '引數': 將 'double' 轉換為 'const float'，由於類型不同，可能導致資料遺失
+00_StudentWork\00_SimpleInteractiveSystem\mySystem_SimplePainter.cpp(195): warning C4244: '引數': 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+00_StudentWork\00_SimpleInteractiveSystem\mySystem_SimplePainter.cpp(213): warning C4244: '引數': 將 'double' 轉換為 'const float'，由於類型不同，可能導致資料遺失
+  mySystem_SortingVisualization.cpp
+C:\Users\Hubert\Desktop\nctu-oop-assignment\Assignment2\code\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Users\Hubert\Desktop\nctu-oop-assignment\Assignment2\code\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+  basic_app.cpp
+  main.cpp
+C:\Users\Hubert\Desktop\nctu-oop-assignment\Assignment2\code\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Users\Hubert\Desktop\nctu-oop-assignment\Assignment2\code\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+  mySystemApp.cpp
+C:\Users\Hubert\Desktop\nctu-oop-assignment\Assignment2\code\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Users\Hubert\Desktop\nctu-oop-assignment\Assignment2\code\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+  mySystemApp_draw.cpp
+C:\Users\Hubert\Desktop\nctu-oop-assignment\Assignment2\code\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Users\Hubert\Desktop\nctu-oop-assignment\Assignment2\code\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(121): warning C4244: '引數': 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(137): warning C4244: '引數': 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(154): warning C4244: '引數': 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(155): warning C4244: '引數': 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(164): warning C4244: '引數': 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(183): warning C4244: '引數': 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(186): warning C4244: '引數': 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(188): warning C4244: '引數': 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(205): warning C4244: '引數': 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(225): warning C4305: '引數': 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(235): warning C4244: '引數': 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(235): warning C4305: '引數': 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(237): warning C4305: '引數': 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(237): warning C4244: '引數': 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(250): warning C4244: '正在初始化': 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(269): warning C4244: '引數': 將 'int' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(272): warning C4244: '引數': 將 'int' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(275): warning C4244: '引數': 將 'int' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(278): warning C4244: '引數': 將 'int' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(284): warning C4244: '正在初始化': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(261): warning C4101: 'b': 未參考的區域變數
+00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(261): warning C4101: 'g': 未參考的區域變數
+00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(261): warning C4101: 'r': 未參考的區域變數
+00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(314): warning C4244: '引數': 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(314): warning C4305: '引數': 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(316): warning C4244: '=': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(318): warning C4244: '=': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(338): warning C4305: '引數': 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(341): warning C4244: '引數': 將 'int' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(342): warning C4244: '引數': 將 'int' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(343): warning C4244: '引數': 將 'int' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(344): warning C4244: '引數': 將 'int' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(353): warning C4305: '引數': 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(355): warning C4244: '引數': 將 'int' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(356): warning C4244: '引數': 將 'int' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(357): warning C4244: '引數': 將 'int' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(358): warning C4244: '引數': 將 'int' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(376): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(390): warning C4244: '引數': 將 'int' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+  mySystemApp_HandleEvents.cpp
+C:\Users\Hubert\Desktop\nctu-oop-assignment\Assignment2\code\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Users\Hubert\Desktop\nctu-oop-assignment\Assignment2\code\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_HandleEvents.cpp(121): warning C4305: '引數': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_HandleEvents.cpp(150): warning C4305: '引數': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_HandleEvents.cpp(160): warning C4305: '引數': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+  camera.cpp
+C:\Users\Hubert\Desktop\nctu-oop-assignment\Assignment2\code\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Users\Hubert\Desktop\nctu-oop-assignment\Assignment2\code\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+openGLbasic\camera.cpp(57): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+  opengl_stuff.cpp
+C:\Users\Hubert\Desktop\nctu-oop-assignment\Assignment2\code\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Users\Hubert\Desktop\nctu-oop-assignment\Assignment2\code\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+  painter_draw.cpp
+C:\Users\Hubert\Desktop\nctu-oop-assignment\Assignment2\code\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Users\Hubert\Desktop\nctu-oop-assignment\Assignment2\code\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+  openGLapp.cpp
+C:\Users\Hubert\Desktop\nctu-oop-assignment\Assignment2\code\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Users\Hubert\Desktop\nctu-oop-assignment\Assignment2\code\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+  openGLapp.events.cpp
+C:\Users\Hubert\Desktop\nctu-oop-assignment\Assignment2\code\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Users\Hubert\Desktop\nctu-oop-assignment\Assignment2\code\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+  openGLapp_draw.cpp
+C:\Users\Hubert\Desktop\nctu-oop-assignment\Assignment2\code\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Users\Hubert\Desktop\nctu-oop-assignment\Assignment2\code\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+  openGLapp_init.cpp
+C:\Users\Hubert\Desktop\nctu-oop-assignment\Assignment2\code\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Users\Hubert\Desktop\nctu-oop-assignment\Assignment2\code\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+  openGLapp_update.cpp
+C:\Users\Hubert\Desktop\nctu-oop-assignment\Assignment2\code\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Users\Hubert\Desktop\nctu-oop-assignment\Assignment2\code\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+  正在編譯...
+  basic_tools.cpp
+  grid2D.cpp
+  provider.cpp
+  vector3d.cpp
+  fileReader.cpp
+  imageReader.cpp
+C:\Users\Hubert\Desktop\nctu-oop-assignment\Assignment2\code\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Users\Hubert\Desktop\nctu-oop-assignment\Assignment2\code\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Users\Hubert\Desktop\nctu-oop-assignment\Assignment2\code\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+  BG_grid2D.cpp
+c:\users\hubert\desktop\nctu-oop-assignment\assignment2\code\boardgame\../primitives/vector3d.h(24): warning C4244: 'return': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+  boardGame.cpp
+C:\Users\Hubert\Desktop\nctu-oop-assignment\Assignment2\code\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Users\Hubert\Desktop\nctu-oop-assignment\Assignment2\code\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+  painter.cpp
+C:\Users\Hubert\Desktop\nctu-oop-assignment\Assignment2\code\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Users\Hubert\Desktop\nctu-oop-assignment\Assignment2\code\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+  boardGameApp.cpp
+C:\Users\Hubert\Desktop\nctu-oop-assignment\Assignment2\code\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Users\Hubert\Desktop\nctu-oop-assignment\Assignment2\code\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+  freeCanvas2D.cpp
+C:\Users\Hubert\Desktop\nctu-oop-assignment\Assignment2\code\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Users\Hubert\Desktop\nctu-oop-assignment\Assignment2\code\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+  lattice_manager.cpp
+  paintingSystem.cpp
+C:\Users\Hubert\Desktop\nctu-oop-assignment\Assignment2\code\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Users\Hubert\Desktop\nctu-oop-assignment\Assignment2\code\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+  paintingSystemApp.cpp
+C:\Users\Hubert\Desktop\nctu-oop-assignment\Assignment2\code\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Users\Hubert\Desktop\nctu-oop-assignment\Assignment2\code\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+  paintingSystemApp_draw.cpp
+C:\Users\Hubert\Desktop\nctu-oop-assignment\Assignment2\code\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Users\Hubert\Desktop\nctu-oop-assignment\Assignment2\code\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+  paintingSystemApp_HandleEvents.cpp
+C:\Users\Hubert\Desktop\nctu-oop-assignment\Assignment2\code\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Users\Hubert\Desktop\nctu-oop-assignment\Assignment2\code\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+  texture.cpp
+C:\Users\Hubert\Desktop\nctu-oop-assignment\Assignment2\code\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Users\Hubert\Desktop\nctu-oop-assignment\Assignment2\code\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+  textureManager.cpp
+C:\Users\Hubert\Desktop\nctu-oop-assignment\Assignment2\code\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Users\Hubert\Desktop\nctu-oop-assignment\Assignment2\code\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+  textureManager_read.cpp
+C:\Users\Hubert\Desktop\nctu-oop-assignment\Assignment2\code\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Users\Hubert\Desktop\nctu-oop-assignment\Assignment2\code\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1189,5): warning MSB8012: TargetPath(C:\Users\Hubert\Desktop\nctu-oop-assignment\Assignment2\code\Release\SelfMotivatedSystem.exe) does not match the Linker's OutputFile property value (C:\Users\Hubert\Desktop\nctu-oop-assignment\Assignment2\code\bin\Release\SelfMotivatedSystem.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+  正在產生程式碼
+  All 625 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成程式碼產生
+  asm.vcxproj -> C:\Users\Hubert\Desktop\nctu-oop-assignment\Assignment2\code\Release\SelfMotivatedSystem.exe
+  asm.vcxproj -> C:\Users\Hubert\Desktop\nctu-oop-assignment\Assignment2\code\Release\SelfMotivatedSystem.pdb (Full PDB)

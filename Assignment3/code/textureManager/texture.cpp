@@ -17,24 +17,24 @@ GLfloat data[]= {
 };
 */
 
-GLfloat data[]= {
-	// FRONT FACE
-	0.0f, 0.0f,		0.0f, 0.0f, .0f,
-	1.0f, 0.0f,		1.0f, 0.0f, .0f,
-	1.0f, 1.0f,		1.0f, 1.0f, .0f,
-	0.0f, 1.0f,		0.0f, 1.0f, .0f
-};
-
-GLfloat data_ud[]= {
-	// FRONT FACE
-	0.0f, 1.0f,		0.0f, 0.0f, .0f,
-	1.0f, 1.0f,		1.0f, 0.0f, .0f,
-	1.0f, 0.0f,		1.0f, 1.0f, .0f,
-	0.0f, 0.0f,		0.0f, 1.0f, .0f
-};
-
 namespace ns_opengl
 {
+	GLfloat data[] = {
+		// FRONT FACE
+		0.0f, 0.0f,		0.0f, 0.0f, .0f,
+		1.0f, 0.0f,		1.0f, 0.0f, .0f,
+		1.0f, 1.0f,		1.0f, 1.0f, .0f,
+		0.0f, 1.0f,		0.0f, 1.0f, .0f
+	};
+
+	GLfloat data_ud[] = {
+		// FRONT FACE
+		0.0f, 1.0f,		0.0f, 0.0f, .0f,
+		1.0f, 1.0f,		1.0f, 0.0f, .0f,
+		1.0f, 0.0f,		1.0f, 1.0f, .0f,
+		0.0f, 0.0f,		0.0f, 1.0f, .0f
+	};
+
 	dTEXTURE::dTEXTURE()
 	{
 		m_TextureID = 0;
