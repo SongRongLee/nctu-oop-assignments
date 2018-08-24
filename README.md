@@ -39,3 +39,6 @@ Programming assignments for NCTU Object Orientation Programming Class.
   <img src="./screenshots/a3_f1.gif" alt="drawing" width="300"/>  
 * **F2**: 2048 game  
   <img src="./screenshots/a3_f2.gif" alt="drawing" width="300"/>  
+
+## Credits
+**Templates were given by the teacher and the TAs, student's work is in 00_StudentWork folder.**
