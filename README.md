@@ -32,7 +32,7 @@ Programming assignments for NCTU Object Orientation Programming Class.
 * **F4**: Read a bitmap from a file  
   <img src="./screenshots/a2_f4.PNG" alt="drawing" width="300"/>  
 * **F5**: Visualization of bubble sort  
-  <img src="./screenshots/a2_f5.PNG" alt="drawing" width="300"/>  
+  <img src="./screenshots/a2_f5.gif" alt="drawing" width="300"/>  
   
 ### Assignment3:
 * **F1**: Dots drawer  
